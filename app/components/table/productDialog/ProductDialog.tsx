@@ -214,19 +214,19 @@ export default function ProductDialog() {
         <FormProvider {...methods}>
           <form onSubmit={methods.handleSubmit(onSubmit)}>
             <div className="flex flex-col gap-2 mt-1">
-              <div className="grid grid-cols-2 gap-7">
+              <div className="grid grid-cols-2 gap-7 max-sm:grid-cols-1">
                 <ProductName onSelectedIcon={onSelectedIcon} />
                 <SKU />
               </div>
 
-              <div className="grid grid-cols-2 gap-5 items-start mt-4">
+              <div className="grid grid-cols-2 gap-5 items-start mt-4 max-sm:grid-cols-1">
                 <Supplier />
                 <ProductCategory
                   selectedCategory={selectedCategory}
                   setSelectedCategory={setSelectedCategory}
                 />
               </div>
-              <div className="mt-3 flex justify-between gap-7 max-lg:grid-cols-2 max-lg:gap-1 max-sm:grid-cols-1">
+              <div className="mt-3 gap-7 max-lg:grid-cols-2 max-lg:gap-1 max-sm:grid-cols-1">
                 <Status
                   selectedTab={selectedTab}
                   setSelectedTab={setSelectedTab}
