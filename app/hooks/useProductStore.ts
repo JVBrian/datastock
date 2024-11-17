@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 import { Product } from "@/components/products/Columns";
-import { products } from "@/components/products/productData";
+import { products } from "@/components/products/ProductData";
 
 interface ProductState {
   allProducts: Product[];
