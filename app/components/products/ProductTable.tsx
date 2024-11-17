@@ -215,7 +215,7 @@ export function ProductTable<TData, TValue>({
           setPagination={setPagination}
         />
 
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center max-sm:flex-col">
           <span className="text-sm  text-gray-500">
             Página {pagination.pageIndex + 1} de {table.getPageCount()}
           </span>
