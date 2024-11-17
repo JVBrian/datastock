@@ -268,7 +268,6 @@ export function ProductTable<TData, TValue>({
 
 function FilterArea({
   selectedStatuses,
-  setSelectedStatuses,
   selectedCategories,
   setSelectedCategories,
 }: {
