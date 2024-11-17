@@ -18,15 +18,15 @@ import {
   DialogClose,
 } from "@/ui/dialog";
 import { Separator }       from "@/ui/separator";
-import ProductName         from "./_components/ProductName";
-import Price               from "./_components/Price";
-import { ProductCategory } from "./_components/ProductCategory";
-import Quantity            from "./_components/Quantity";
-import SKU                 from "./_components/SKU";
-import Status              from "./_components/Status";
-import Supplier            from "./_components/Supplier";
+import ProductName         from "@/components/table/productDialog/_components/ProductName";
+import Price               from "@/components/table/productDialog/_components/Price";
+import { ProductCategory } from "@/components/table/productDialog/_components/ProductCategory";
+import Quantity            from "@/components/table/productDialog/_components/Quantity";
+import SKU                 from "@/components/table/productDialog/_components/SKU";
+import Status              from "@/components/table/productDialog/_components/Status";
+import Supplier            from "@/components/table/productDialog/_components/Supplier";
 import { Product }         from "@/components/products/Columns";
-import { icons }           from "./Icons";
+import { icons }           from "@/components/table/productDialog/Icons";
 import { useProductStore } from "@/hooks/useProductStore";
 import { useToast }        from "@/hooks/useToast";
 

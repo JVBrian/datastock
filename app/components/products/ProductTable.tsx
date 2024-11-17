@@ -31,7 +31,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/ui/table";
-import PaginationSelection from "./PaginationSelection";
+import PaginationSelection from "@/components/products/PaginationSelection";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];

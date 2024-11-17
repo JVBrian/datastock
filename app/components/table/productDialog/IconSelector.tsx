@@ -18,7 +18,7 @@ import {
   DialogTrigger,
 } from "@/ui/dialog";
 import { Button } from "@/ui/button";
-import { icons } from "./Icons";
+import { icons }  from "@/components/table/productDialog/Icons";
 
 export type SingleIcon = {
   id: number;

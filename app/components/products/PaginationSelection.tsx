@@ -8,7 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/ui/select";
-import { PaginationType } from "./ProductTable";
+import { PaginationType } from "@/components/products/ProductTable";
 
 
 export default function PaginationSelection({

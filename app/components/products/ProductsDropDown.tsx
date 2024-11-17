@@ -5,7 +5,7 @@ import { FaRegEdit }                      from "react-icons/fa";
 import { MdContentCopy, MdOutlineDelete } from "react-icons/md";
 
 
-import { Product }         from "./Columns";
+import { Product }         from "@/components/products/Columns";
 import { Button }          from "@/ui/button";
 import { useProductStore } from "@/hooks/useProductStore";
 import { useToast }        from "@/hooks/useToast";

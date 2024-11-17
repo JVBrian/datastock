@@ -4,7 +4,7 @@ import { useFormContext } from "react-hook-form";
 
 import { Label }        from "@/ui/label";
 import { Input }        from "@/ui/input";
-import { IconSelector } from "../IconSelector";
+import { IconSelector } from "@/components/table/productDialog/IconSelector";
 
 export default function ProductName({
   onSelectedIcon,
